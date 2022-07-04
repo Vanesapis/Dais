@@ -38,6 +38,8 @@ export default function Eventos() {
                 return(
                     <div>
                         {value.titulo}
+                        {value.descripcion}
+                        {value.citacion_dia}
                     </div>
                 )
             })}
